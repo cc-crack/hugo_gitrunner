@@ -4,7 +4,7 @@ MAINTAINER ccrack <pk8995z@gmail.com>
 
 RUN apt -y install git
 
-ENV VERSION 0.55.0
+ENV VERSION 0.65.3
 RUN mkdir -p /usr/local/src \
     && cd /usr/local/src \
     && curl -L https://github.com/gohugoio/hugo/releases/download/v${VERSION}/hugo_${VERSION}_linux-64bit.tar.gz | tar -xz \
