@@ -11,5 +11,5 @@ RUN mkdir -p /usr/local/src \
     && mv hugo /usr/local/bin/hugo \
     && curl -L https://bin.equinox.io/c/dhgbqpS8Bvy/minify-stable-linux-amd64.tgz | tar -xz \
     && mv minify /usr/local/bin/ \
-    && mkdir /siteroot
+    && mkdir /siteroot \
     && chown -R gitlab-runner chown -R /siteroot
